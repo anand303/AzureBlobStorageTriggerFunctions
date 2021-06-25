@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "tarblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "temp/{name}.tar",
+      "connection": "untarblobfunction_STORAGE"
+    }
+  ]
+}
